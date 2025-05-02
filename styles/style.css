@@ -28,10 +28,10 @@ nav {
     .dropdownContent {
       background: #212121;
       border: 1px solid #000;
-      width: 230px;
+      width: 250px;
       position: absolute;
       top: 50px;
-      left: -310px;
+      left: -330px;
       
       .dropdownContent00 {
         padding-left: 25px;
@@ -65,7 +65,7 @@ nav {
 header,
 section,
 footer {
-  padding: 25px 50px;
+  padding: 30px 60px;
 }
 
 header {
@@ -77,10 +77,32 @@ header {
 }
 
 section {
+  p {
+    margin: 8px 0;
+  }
+
   p.definition {
     column-count: 3;
-    column-gap: 23px;
+    column-gap: 30px;
     column-rule-style: solid;
+  }
+
+  pre.codingC {
+    background: rgb(51, 51, 51);
+  
+    code {
+      .preCom {
+        color: rgb(185, 131, 85);
+      }
+
+      .preFil {
+        color: rgb(126, 155, 107);
+      }
+
+      .com {
+        color: rgb(112, 112, 112);
+      }
+    }
   }
 }
 
@@ -90,14 +112,5 @@ footer {
 }
 
 ul {
-  margin-left: 30px;
-}
-
-pre {
-  p {
-    font-family: Arial, sans-serif;
-    column-count: 3;
-    column-gap: 20px;
-    column-rule-style: solid;
-  }
+  margin: 8px 30px;
 }

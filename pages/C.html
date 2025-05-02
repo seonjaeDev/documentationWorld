@@ -15,21 +15,20 @@
     <div class="dropdown">
       <a href="" class="active">Learn</a>
       <div class="dropdownContent">
-        <a href="pages/C.html" class="active">C language</a>
+        <a href="#hero" class="active">C language</a>
         <div class="dropdownContent00">
-          <a href="">Introduction</a>
+          <a href="#introduction">Introduction</a>
         </div>
       </div>
     </div>
   </nav>
-  <header>
+  <header id="hero">
     <h1>C Documentation</h1>
     <p>Programming Tutorial</p>
   </header>
-  <section>
+  <section id="introduction">
     <h2>Introduction</h2>
     <p class="definition">
-      <br>
       The C language is a <br>
       - universal, <br>
       - procedural imperative <br>
@@ -70,6 +69,38 @@
       - supercomputers to embedded systems.
     </p>
   </section>
+  <section>
+    <h2>First C program</h2>
+    <p>Learning any language, as a rule, begins with writing a simple program that prints a message to the console. Let's take a look at a program that will print the words "Hello, World!" written in C.</p>
+    <pre class="codingC"><code>
+  <span class="preCom">#include</span> <span class="preFil">&lt;stdio.h&gt;</span>
+  <span class="com">/<span>/</span> First C program</span>
+
+  int main() {
+    printf("Hello, World!\n");
+    return 0;
+  }
+    </code></pre>
+    <pre><samp>
+  Hello, World!
+  Program ended with exit code: 0
+    </samp></pre>
+    <p>
+      Now let's look at the structure of the program. <br>
+      <br>
+      A program in C language consists of the following parts:
+      <ul>
+        <li>Preprocessor Commands</li>
+        <li>Functions</li>
+        <li>Variables</li>
+        <li>Instructions</li>
+        <li>Comments</li>
+      </ul>
+      Let's look at these parts of the program next.
+    </p>
+  </section>
+  <section></section>
+  <section></section>
   <footer>
     <p>Citations:</p>
     <ul>
