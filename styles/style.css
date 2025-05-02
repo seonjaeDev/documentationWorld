@@ -11,6 +11,7 @@ html {
 
 body {
   font: 1em arial, sans-serif;
+  position: relative;
 }
 
 nav {
@@ -62,9 +63,9 @@ nav {
 }
 
 header,
-section {
-  padding-left: 50px;
-  padding-right: 50px;
+section,
+footer {
+  padding: 25px 50px;
 }
 
 header {
@@ -75,3 +76,28 @@ header {
   flex-direction: column;
 }
 
+section {
+  p.definition {
+    column-count: 3;
+    column-gap: 23px;
+    column-rule-style: solid;
+  }
+}
+
+footer {
+  color: #fff;
+  background: #000;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+pre {
+  p {
+    font-family: Arial, sans-serif;
+    column-count: 3;
+    column-gap: 20px;
+    column-rule-style: solid;
+  }
+}
