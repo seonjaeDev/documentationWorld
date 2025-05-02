@@ -31,7 +31,7 @@ nav {
       width: 250px;
       position: absolute;
       top: 50px;
-      left: -330px;
+      left: -400px;
       
       .dropdownContent00 {
         padding-left: 25px;
@@ -65,11 +65,11 @@ nav {
 header,
 section,
 footer {
-  padding: 30px 60px;
+  padding: 30px 75px;
 }
 
 header {
-  height: 200px;
+  height: 230px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,6 +77,12 @@ header {
 }
 
 section {
+  div.tip {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
   p {
     margin: 8px 0;
   }
@@ -104,6 +110,34 @@ section {
       }
     }
   }
+
+  code {
+    font-size: 1.1em;
+  }
+}
+
+section#symb {
+  div.symbTable {
+    display: flex;
+    justify-content: space-around;
+  
+    table,
+    th,
+    td {
+      border: 1px solid #000;
+      border-collapse: collapse;
+    }
+  
+    table {
+      margin: 8px 0;
+      width: 43%;
+  
+      th,
+      td {
+        padding: 8px;
+      }
+    }
+  }
 }
 
 footer {
@@ -113,4 +147,8 @@ footer {
 
 ul {
   margin: 8px 30px;
+}
+
+ul#andSym {
+  column-count: 4;
 }
