@@ -4,26 +4,38 @@
 
   .foldCont {
     position: relative;
-  
+
+    .foldBack,
+    .foldFron {
+      height: 80px;
+    }
+
+    .foldBack00,
+    .foldFron00 {
+      border-radius: 0 10px 10px 10px;
+      width: 185px;
+      height: 150px;
+    }
+
     .foldBackCont {
       z-index: 0;
-  
+
       div {
         background: #ffd54f;
       }
-  
+
       .foldBack {
         border-radius: 10px 10px 10px 0;
         width: 200px;
-      } 
+      }
     }
-  
+
     .fileCont {
       position: absolute;
       top: -3px;
       left: 10px;
       z-index: 1;
-  
+
       .filePape {
         background: #fff;
         border: 1px solid #000;
@@ -31,32 +43,20 @@
         height: 220px;
       }
     }
-  
+
     .foldFronCont {
       position: absolute;
       top: 0;
       z-index: 2;
-  
+
       div {
         background: #ffd54f;
       }
-  
+
       .foldFron {
         border-radius: 10px 10px 0 0;
         width: 175px;
       }
-    }
-  
-    .foldBack,
-    .foldFron {
-      height: 80px;
-    }
-  
-    .foldBack00,
-    .foldFron00 {
-      border-radius: 0 10px 10px 10px;
-      width: 185px;
-      height: 150px;
     }
   }
 
