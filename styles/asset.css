@@ -1,8 +1,10 @@
 /* folder */
 .foldContFlex {
   display: flex;
+  flex-wrap: wrap;
 
   .foldCont {
+    margin: 15px;
     position: relative;
 
     .foldBack,
@@ -18,7 +20,6 @@
     }
 
     .foldBackCont {
-      z-index: 0;
 
       div {
         background: #ffd54f;
@@ -64,6 +65,11 @@
     .fileCont {
       top: -13px;
       left: 150px;
+      z-index: 3;
+    }
+
+    .foldFronCont {
+      z-index: 4;
     }
   }
 }
