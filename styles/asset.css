@@ -1,10 +1,41 @@
+/* button */
+.butt {
+  border-radius: 5px;
+  margin: 3px 0;
+  padding: 8px 0;
+  width: 135px;
+  display: block;
+}
+
+.buttStyl00 {
+  color: #fff;
+  background: #000;
+}
+
+.buttStyl00:hover {
+  color: #000;
+  background: #fff;
+}
+
+.buttStyl01 {
+  background: #fff;
+  border: 1px solid #fff;
+  text-decoration: underline;
+}
+
+.buttStyl01:hover {
+  color: #f9a825;
+  border: 1px solid #000;
+  text-decoration: none;
+}
+
 /* folder */
 .foldContFlex {
   display: flex;
   flex-wrap: wrap;
 
   .foldCont {
-    margin: 15px;
+    margin: 18px;
     position: relative;
 
     .foldBack,
@@ -40,8 +71,19 @@
       .filePape {
         background: #fff;
         border: 1px solid #000;
-        width: 180px;
-        height: 220px;
+        padding: 13px;
+        width: 153px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+        .buttCont {
+          position: absolute;
+          right: 8px;
+          bottom: 5px;
+        }
       }
     }
 
@@ -64,7 +106,7 @@
   .foldCont:hover {
     .fileCont {
       top: -13px;
-      left: 150px;
+      left: 168px;
       z-index: 3;
     }
 
