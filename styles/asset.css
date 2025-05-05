@@ -1,4 +1,10 @@
 /* button */
+button {
+  a {
+    display: block;
+  }
+}
+
 .butt {
   border-radius: 5px;
   margin: 3px 0;
@@ -8,13 +14,20 @@
 }
 
 .buttStyl00 {
-  color: #fff;
   background: #000;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
 .buttStyl00:hover {
-  color: #000;
   background: #fff;
+
+  a {
+    color: #000;
+  }
 }
 
 .buttStyl01 {
@@ -39,6 +52,13 @@
     position: relative;
 
     .foldBack,
+    .foldBack00,
+    .foldFron,
+    .foldFron00 {
+      background: #ffd54f;
+    }
+
+    .foldBack,
     .foldFron {
       height: 80px;
     }
@@ -51,11 +71,6 @@
     }
 
     .foldBackCont {
-
-      div {
-        background: #ffd54f;
-      }
-
       .foldBack {
         border-radius: 10px 10px 10px 0;
         width: 200px;
@@ -83,6 +98,10 @@
           position: absolute;
           right: 8px;
           bottom: 5px;
+
+          button {
+            width: 150px;
+          }
         }
       }
     }
@@ -92,8 +111,10 @@
       top: 0;
       z-index: 2;
 
-      div {
-        background: #ffd54f;
+      .foldTextCont {
+        position: absolute;
+        top: 8px;
+        left: 8px;
       }
 
       .foldFron {
@@ -105,8 +126,8 @@
 
   .foldCont:hover {
     .fileCont {
-      top: -13px;
-      left: 168px;
+      top: -15px;
+      left: 170px;
       z-index: 3;
     }
 

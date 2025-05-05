@@ -69,7 +69,7 @@ footer {
 }
 
 header {
-  height: 230px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,47 +77,6 @@ header {
 }
 
 section {
-  .projCardCont {
-    margin: 8px 0;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    .projCard {
-      border: 1px solid #000;
-      border-radius: 5px;
-      margin: 8px;
-      width: 250px;
-      height: 180px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-
-      button {
-        background: #212121;
-        border-radius: 5px;
-        margin: 3px;
-        width: 120px;
-
-        a {
-          color: #fff;
-          text-decoration: none;
-          padding: 3px;
-          display: block;
-        }
-      }
-
-      button:hover {
-        background: #fff;
-
-        a {
-          color: #000;
-        }
-      }
-    }
-  }
-
   /* C.html */
   div.tip {
     border: 1px solid #000;
